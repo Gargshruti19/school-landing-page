@@ -1,0 +1,135 @@
+@media all and (max-width: 500px) {
+	.info h1 {
+		font-size: 30px;
+	}
+	.info p {
+		line-height: 18px;
+		font-size: 14px;
+	}
+	.info p span {
+		margin-top: 1%;
+		font-size: 15px;
+	}
+	.info button {
+		padding: 8px 18px;
+
+		margin-top: 1%;
+	}
+
+	.info button a {
+		font-size: 13px;
+
+		padding-right: 1px;
+	}
+	.info button a i {
+		font-size: 14px;
+		padding-left: 3px;
+	}
+	/* image transition at home page  */
+	.img-box {
+		width: 42%;
+		height: 80%;
+
+		bottom: 30px;
+		right: 30px;
+	}
+	.img-box img {
+		height: 80%;
+	}
+	.img-box:hover .back-img {
+		bottom: 30px;
+	}
+	.img-box:hover .main-img {
+		left: 45%;
+	}
+	/* social media links to know more about school */
+	/* optional  */
+	.social-links {
+		margin-top: 4%;
+	}
+	.social-links a {
+		font-size: 25px;
+
+		margin-right: 20px;
+	}
+}
+@media all and (max-width: 875px) and (min-width: 625px) {
+	.info h1 {
+		font-size: 25px;
+	}
+	.info p {
+		line-height: 14px;
+		font-size: 12px;
+	}
+	.info p span {
+		margin-top: 1%;
+		font-size: 13px;
+	}
+	.info button {
+		padding: 7px 12px;
+
+		margin-top: 1%;
+	}
+
+	.info button a {
+		font-size: 12px;
+
+		padding-right: 1px;
+	}
+	.info button a i {
+		font-size: 12px;
+		padding-left: 2.6px;
+	}
+	/* image transition at home page  */
+	.img-box {
+		width: 38%;
+		height: 70%;
+
+		bottom: 38px;
+		right: 25px;
+	}
+	.img-box img {
+		height: 80%;
+	}
+	.img-box:hover .back-img {
+		bottom: 25px;
+	}
+	.img-box:hover .main-img {
+		left: 45%;
+	}
+	/* social media links to know more about school */
+	/* optional  */
+	.social-links {
+		margin-top: 3%;
+	}
+	.social-links a {
+		font-size: 22px;
+
+		margin-right: 18px;
+	}
+}
+@media (max-width: 1100px) {
+	footer .content .middle {
+		padding-left: 50px;
+	}
+}
+@media (max-width: 950px) {
+	footer .content .box {
+		width: 50%;
+	}
+	.content .right {
+		margin-top: 40px;
+	}
+}
+@media (max-width: 560px) {
+	footer {
+		position: relative;
+	}
+	footer .content .box {
+		width: 100%;
+		margin-top: 30px;
+	}
+	footer .content .middle {
+		padding-left: 0;
+	}
+}
