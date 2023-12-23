@@ -5,14 +5,14 @@ body {
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
-/* home page  */
+/*------------ home page---------  */
 .main {
 	width: 100%;
 	height: 100vh;
 	position: relative;
 	border-bottom: 10px solid purple;
 }
-/* navbar */
+/*----------- navbar----------------*/
 .nav {
 	display: flex;
 	width: 100%;
@@ -74,7 +74,7 @@ body {
 	color: purple;
 	transition: ease-in-out 0.5s;
 }
-/* home page  */
+/*------------- home page---------------------  */
 .info {
 	margin-left: 5%;
 	margin-top: 10%;
@@ -124,7 +124,7 @@ body {
 	font-size: 1vw;
 	padding-left: 5px;
 }
-/* image transition at home page  */
+/*---------- image transition at home page--------------  */
 .img-box {
 	width: 45%;
 	height: 80%;
@@ -146,7 +146,7 @@ body {
 .img-box:hover .main-img {
 	left: 54%;
 }
-/* social media links to know more about school */
+/*------------- social media links to know more about school---------- */
 /* optional  */
 .social-links {
 	margin-left: 8%;
@@ -161,7 +161,7 @@ body {
 	color: #ff4321;
 }
 
-/* About Section */
+/*---------------- About Section--------------- */
 .about-section {
 	width: 100%;
 	/* height: 100vh; */
@@ -205,7 +205,7 @@ body {
 	transform: translateX(-50%), scale(1.1);
 	transition: ease-in-out 0.5s;
 }
-/* all 4 sections of about section  */
+/*----------- all 4 sections of about section------------  */
 .about-section .section {
 	width: 80%;
 	height: 70%;
@@ -245,7 +245,7 @@ body {
 	letter-spacing: 0.4px;
 }
 
-/* faculty-section */
+/*-------------- faculty-section-------------- */
 .faculty-section {
 	width: 100%;
 	height: 100vh;
@@ -318,7 +318,7 @@ body {
 	transition: transform 0.6s;
 }
 
-/* top 3 students css */
+/*-------------- top 3 students css----------------- */
 
 .top-students {
 	width: 100%;
@@ -429,7 +429,7 @@ body {
 	font-size: 1vw;
 }
 
-/*------FOOTER STYLE------*/
+/*-----------FOOTER STYLE------*/
 
 footer {
 	font-family: "Poppins", sans-serif;
@@ -533,6 +533,3 @@ footer a {
 footer a:hover {
 	color: #eb2f06;
 }
-
-
-
